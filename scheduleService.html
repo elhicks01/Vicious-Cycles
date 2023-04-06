@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicious Cycles Schedule Service</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="m2-row">
+    <div class="w3-col m2 w3-center">PRODUCTS</div>
+    <div class="w3-col m2 w3-center">SERVICES</div>
+    <div class="w3-col m2 w3-center">CONTACT</div>
+    <div class="w3-col m2 w3-center">ABOUT</div>
+    <div class="w3-col m2 w3-center"><a href="index.html">HOME</a></div>
+</header><br><br>
+    <h2> Thank you for choosing Vicious Cycles for your service needs.</h2>
+    <h3> Please fill out the information below so we can assist you further.</h3>
+    <h4> Please note, a deposit 25% down payment is required for all custom work.<h4>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="phone">Phone:</label><br>
+         <input type="text" id="phone" name="phone"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="description">Please provide a brief description of the reason for service:</label><br>
+        <textarea rows="8" cols="45" id="TITLE">
+        </textarea><br>
+        <p>Please choose your prefered method of contact:</p>
+        <input type="radio" id="phone" name=preferedContactMethod" value="phone">
+        <label for="phone">Phone</label><br>
+        <input type="radio" id="email" name="preferedContactMethod" value="email">
+        <label for="email">Email</label><br>
+        
+        <label for="date">Please select a day that works best for a consultation</label>
+
+<select name="date" id="date">
+  <option value="monday">Monday</option>
+  <option value="tuesday">Tuesday</option>
+  <option value="wednesday">Wednesday</option>
+  <option value="thursday">Thursday</option>
+  <option value="friday">Friday</option>
+  <option value="saturday">Sunday</option><br>
+</select>
+<br>
+<input type="checkbox" id="phoneAgreement" name="phoneAgreement" value="iAgree">
+  <label for="phoneAgreement"> I agree to have Vicious Cycles contact me via Phone</label><br>
+  <input type="checkbox" id="emailAgreement" name="emailAgreement" value="iAgree">
+  <label for="emailAgreement"> I agree to have Vicious Cycles contact me via Email</label><br>
+  <input type="checkbox" id="downpayment" name="downpayment" value="iAgree">
+  <label for="downpayment"> I understand that there is a 25% down payment for any custom projects </label><br>
+  <input type="submit" value="Submit">
+    </form> 
+         
+</body>
+</html>
